@@ -17,17 +17,13 @@ namespace Snake
             p1.sum = '*';
             Draw(p1.x, p1.y, p1.sum);
 
-            /*  int x1 = 1;
-            int y1 = 3;
-            char sum1 = '*'; 
+            Point p2 = new Point();
+            p2.x = 4;
+            p2.y = 5;
+            p2.sum = '#';
+            Draw(p2.x, p2.y, p2.sum);
 
-            Draw(x1, y1, sum1); */
 
-            int x2 = 4;
-            int y2 = 5;
-            char sum2 = '#';
-
-            Draw(x2, y2, sum2);
 
             Console.ReadLine();
         }
