@@ -17,7 +17,12 @@ namespace Snake
             Console.SetCursorPosition(x1, y1);
             Console.Write(sum1);
 
+            int x2 = 4;
+            int y2 = 5;
+            char sum2 = '#';
 
+            Console.SetCursorPosition(x2, y2);
+            Console.Write(sum2);
 
             Console.ReadLine();
         }
